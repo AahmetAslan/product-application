@@ -1,3 +1,4 @@
+import Vue from "vue"
 const state = {
     products : []
 };
@@ -18,7 +19,16 @@ const actions = {
     initApp({ commit }){
 
     },
-    saveProduct({ commit }, payload) {
+    saveProduct({commit}, payload) {
+      Vue.http.post("https://urun-islemleri-prod-a4641-default-rtdb.firebaseio.com/products.json", payload)
+          .then((response) => {
+              console.log(response)
+          })
+          .then((error) => {
+              console.log(error)
+          })
+    },
+    sellProduct({commit}, payload){
 
     }
 };
