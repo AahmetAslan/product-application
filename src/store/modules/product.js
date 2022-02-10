@@ -19,9 +19,11 @@ const actions = {
     initApp({ commit }){
 
     },
-    saveProduct({commit}, payload) {
-      Vue.http.post("https://urun-islemleri-prod-a4641-default-rtdb.firebaseio.com/products.json", payload)
+    saveProduct({commit}, product) {
+      Vue.http.post("https://urun-islemleri-prod-a4641-default-rtdb.firebaseio.com/products.json", product)
           .then((response) => {
+              product.key = response.body.name;
+              commit("updateProductList", product);
               console.log(response)
           })
           .then((error) => {
@@ -29,7 +31,6 @@ const actions = {
           })
     },
     sellProduct({commit}, payload){
-
     }
 };
 export default {
