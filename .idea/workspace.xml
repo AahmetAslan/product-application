@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f27fef3-f4f5-47ae-85cf-e2441ff5531e" name="Changes" comment="">
+    <list default="true" id="8f27fef3-f4f5-47ae-85cf-e2441ff5531e" name="Changes" comment="VueResource and firebase operations done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/modules/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +73,18 @@
       <workItem from="1644389570365" duration="45000" />
       <workItem from="1644389682802" duration="14693000" />
       <workItem from="1644415377834" duration="4095000" />
-      <workItem from="1644489976219" duration="3496000" />
+      <workItem from="1644489976219" duration="4148000" />
+      <workItem from="1644495209506" duration="3897000" />
+      <workItem from="1644560747271" duration="5720000" />
     </task>
+    <task id="LOCAL-00001" summary="VueResource and firebase operations done.">
+      <created>1644494577842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644494577842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,10 +95,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VueResource and firebase operations done." />
+    <option name="LAST_COMMIT_MESSAGE" value="VueResource and firebase operations done." />
   </component>
 </project>
