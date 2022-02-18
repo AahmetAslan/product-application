@@ -8,7 +8,7 @@
     </div>
     <div class="row">
       <div class="col-6 offset-3 pt-3 card mt-5 shadow">
-        <div class="card-body">
+        <div class="card-body" style="margin-bottom: 50px">
           <h3>Ürün İşlemleri</h3>
           <hr>
           <div class="form-group">

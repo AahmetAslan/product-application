@@ -5,15 +5,15 @@
     </span>
     <span class="navbar-text navbar-nav my-2 my-lg-0 mr-3">
         <strong>Alış Tutarı : </strong>
-        <span class="badge badge-danger" style="width: 75px"> {{ getTradeResult.purchase }}</span>
+        <span class="badge badge-danger" style="width: 75px"> {{ getTradeResult.purchase | currency }}</span>
     </span>
     <span class="navbar-text navbar-nav my-2 my-lg-0 mr-3">
         <strong>Satış Tutarı : </strong>
-        <span class="badge badge-success" style="width: 75px"> {{ getTradeResult.sale }}</span>
+        <span class="badge badge-success" style="width: 75px"> {{ getTradeResult.sale | currency }}</span>
     </span>
     <span class="navbar-text navbar-nav my-2 my-lg-0">
         <strong>Bakiye : </strong>
-        <span class="badge badge-primary" style="width: 75px"> {{ getTradeResult.balance }}</span>
+        <span class="badge badge-primary" style="width: 75px"> {{ getTradeResult.balance | currency }}</span>
     </span>
   </nav>
 </template>
