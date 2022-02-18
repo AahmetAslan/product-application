@@ -30,7 +30,6 @@ const actions = {
                   count: product.count
               }
               dispatch("setTradeResult", tradeResult)
-
           })
     },
     sellProduct({commit}, payload){
