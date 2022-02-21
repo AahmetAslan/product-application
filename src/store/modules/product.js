@@ -18,7 +18,15 @@ const mutations = {
 };
 const actions = {
     initApp({ commit }){
-
+        Vue.http.get("https://urun-islemleri-prod-a4641-default-rtdb.firebaseio.com/products.json")
+            .then(response => {
+                console.log(response)
+                let data = response.body
+                for (let i in data){
+                    data[i].key=i;
+                    commit("updateProductList", data[i])
+                }
+            })
     },
     saveProduct({commit, dispatch}, product) {
       Vue.http.post("https://urun-islemleri-prod-a4641-default-rtdb.firebaseio.com/products.json", product)
