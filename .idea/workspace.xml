@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8f27fef3-f4f5-47ae-85cf-e2441ff5531e" name="Changes" comment="Purchase, sale and balance information was retrieved from firebase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/ProductPurchase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/ProductPurchase.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/modules/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +77,8 @@
       <workItem from="1644560747271" duration="7873000" />
       <workItem from="1644821088959" duration="9000" />
       <workItem from="1645109699094" duration="647000" />
-      <workItem from="1645168794094" duration="9861000" />
+      <workItem from="1645168794094" duration="10928000" />
+      <workItem from="1645430684850" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="VueResource and firebase operations done.">
       <created>1644494577842</created>
